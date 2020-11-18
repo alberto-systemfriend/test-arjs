@@ -21,7 +21,7 @@ function renderPlaces(places) {
     
         let model = document.createElement('a-entity');
         model.setAttribute('gps-entity-place', 'longitude: 35.585812; latitude: 139.655348');
-        model.setAttribute('gltf-model', '/Magnemite/scene.gltf');
+        model.setAttribute('gltf-model', './Magnemite/scene.gltf');
         model.setAttribute('rotation', '0 180 0');
         model.setAttribute('animation-mixer', '');
         model.setAttribute('scale', '0.5 0.5 0.5');
